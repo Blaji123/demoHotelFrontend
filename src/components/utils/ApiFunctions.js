@@ -2,7 +2,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "demohotel-backend.azurewebsites.net",
+  baseURL: "https://demohotel-backend.azurewebsites.net",
 });
 
 export const getHeader = () => {
